@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    async function task()
+    {
+        x1=await 7+21
+        console.log("inside");
+        return x1;
+    }
+    let res=tassk()
+    console.log("outside");
+    //console.log(res);
+    res.then(function(data){
+    console.log(data);
+    })
+</script>
+    
+
+
+</body>
+</html>
